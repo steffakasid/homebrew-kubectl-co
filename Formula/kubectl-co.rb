@@ -7,6 +7,7 @@ class KubectlCo < Formula
   homepage "https://github.com/steffakasid/kubectl-go"
   version "1.0.2"
   license "Apache-2.0"
+  deprecate! date: "2026-05-07", because: "use steffakasid/tap/kubectl-co instead"
 
   on_macos do
     on_intel do
