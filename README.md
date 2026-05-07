@@ -1,11 +1,13 @@
-# Steffakasid Kubectl-co
+# DEPRECATED: steffakasid/homebrew-kubectl-co
 
-## How do I install these formulae?
+This tap is deprecated.
 
-`brew install steffakasid/kubectl-co/<formula>`
+Use the consolidated tap instead:
 
-Or `brew tap steffakasid/kubectl-co` and then `brew install <formula>`.
+```bash
+brew tap steffakasid/tap
+brew install steffakasid/tap/kubectl-co
+```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+For full installation instructions, see the consolidated tap README:
+https://github.com/steffakasid/homebrew-tap
